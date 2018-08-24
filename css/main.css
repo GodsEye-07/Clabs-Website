@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: rgb(255,102,35);
+    border-color: rgb(255,102,35);
     color: #FFFFFF;
 }
 
@@ -847,8 +847,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: rgb(255,102,35);
+    border-color: rgb(255,102,35);
 }
 
 
@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #39b54a;
+    color: rgb(255,102,35);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1420,7 +1420,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #39b54a;
+    background: rgb(255,102,35);
 }
 
 
@@ -1513,7 +1513,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #39b54a;
+    color: rgb(255,102,35);
 }
 
 .header-nav p {
@@ -1651,7 +1651,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: white;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1884,7 +1884,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: rgb(255,102,35);
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -2200,7 +2200,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: rgb(255,102,35);
     color: #010507;
     position: relative;
 }
@@ -2405,7 +2405,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #39b54a;
+    color: rgb(255,102,35);
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2992,7 +2992,7 @@ html.no-csstransitions .home-content__main {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #39b54a;
+    background-color: rgb(255,102,35);
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3019,7 +3019,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: rgb(255,102,35);
 }
 
 .contact-content input[type="email"],
@@ -3137,7 +3137,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #39b54a;
+    color: rgb(255,102,35);
 }
 
 .contact-social li:last-child {
@@ -3352,7 +3352,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: rgb(255,102,35);
 }
 
 footer .row {
