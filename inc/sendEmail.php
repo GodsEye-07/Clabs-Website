@@ -11,11 +11,11 @@ if($_POST) {
     $subject = trim(stripslashes($_POST['contactSubject']));
     $contact_message = trim(stripslashes($_POST['contactMessage']));
 
-    // Check Name
+    // Check Name of the sender.
     if (strlen($name) < 2) {
         $error['name'] = "Please enter your name.";
     }
-    // Check Email
+    // Check Email validaitons
     if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
         $error['email'] = "Please enter a valid email address.";
     }
